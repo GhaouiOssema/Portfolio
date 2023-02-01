@@ -107,6 +107,7 @@
 
 						<p class="intro-position">
 							<span>Full Stack JS Developer</span>
+							<span>Data Scientist with Python</span>
 							<span>UI/UX Designer</span>
 						</p>
 
@@ -281,6 +282,7 @@
 						title="Download CV"
 						class="button button-primary"
 						download="_blank"
+						target="_blank"
 						>Download CV</a
 					>
 				</div>
@@ -417,6 +419,22 @@
 
 				<div class="col-twelve">
 					<div class="timeline-wrap">
+						<div class="timeline-block">
+							<div class="timeline-ico">
+								<i class="fa fa-graduation-cap"></i>
+							</div>
+
+							<div class="timeline-header">
+								<h3>Skill Tracks Certification</h3>
+								<p>Class of 2023</p>
+							</div>
+
+							<div class="timeline-content">
+								<h4>DataCamp</h4>
+								<p>SQL Fundamentals (6 Courses)</p>
+							</div>
+						</div>
+						<!-- /timeline-block -->
 						<div class="timeline-block">
 							<div class="timeline-ico">
 								<i class="fa fa-graduation-cap"></i>
@@ -673,6 +691,26 @@
 								</a>
 							</div>
 						</div>
+						<div class="bgrid folio-item">
+							<div class="item-wrap">
+								<img
+									src="images/portfolio/music_app.png"
+									alt="Salad"
+								/>
+								<a href="#modal-08" class="overlay">
+									<div class="folio-item-table">
+										<div class="folio-item-cell">
+											<h3 class="folio-title">
+												Spotify 2.0 Clone Music App
+											</h3>
+											<span class="folio-types">
+												Web Development
+											</span>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
 						<!-- /folio-item -->
 
 						<!-- modal popups - begin
@@ -694,6 +732,7 @@
 							<div class="link-box">
 								<a
 									href="https://sharepictrues.netlify.app/login"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -725,6 +764,7 @@
 							<div class="link-box">
 								<a
 									href="https://school-management-smart.herokuapp.com/"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -756,6 +796,7 @@
 							<div class="link-box">
 								<a
 									href="https://www.behance.net/gallery/133351579/Food-Delivery-App"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -782,6 +823,7 @@
 							<div class="link-box">
 								<a
 									href="https://www.behance.net/gallery/132098433/Baby-Care-Application"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -812,6 +854,7 @@
 							<div class="link-box">
 								<a
 									href="https://www.behance.net/gallery/144026457/Workout-Application?"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -842,6 +885,7 @@
 							<div class="link-box">
 								<a
 									href="https://www.behance.net/gallery/144027463/Responsive-Web-Design?"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -873,6 +917,43 @@
 							<div class="link-box">
 								<a
 									href="https://www.behance.net/gallery/153616543/ADMIN-DASHBOARD?"
+									target="_blank"
+									>Open project</a
+								>
+								<a href="#" class="popup-modal-dismiss"
+									>Close</a
+								>
+							</div>
+						</div>
+						<!-- /modal-08 -->
+						<div id="modal-08" class="popup-modal slider mfp-hide">
+							<div class="media">
+								<img
+									src="images/portfolio/modals/music_app.png"
+									alt=""
+								/>
+							</div>
+
+							<div class="description-box">
+								<h4>
+									Spotify 2.0 Clone Music App with React 18!
+									(Tailwind, Redux, RapidAPI)
+								</h4>
+								<p>
+									Full Music App Clone ( Spotify 2.0 Clone )
+									With a modern homepage, fully-fledged music
+									player, search, lyrics, song exploration
+									features, search, popular music around you,
+									worldwide top charts, and much more.
+								</p>
+
+								<div class="categories">Web Development</div>
+							</div>
+
+							<div class="link-box">
+								<a
+									href="https://lyricsmusicappclone.netlify.app/"
+									target="_blank"
 									>Open project</a
 								>
 								<a href="#" class="popup-modal-dismiss"
@@ -1051,82 +1132,7 @@
 				</div>
 			</div>
 			<!-- /section-intro -->
-
-			<div class="row contact-form">
-				<div class="col-twelve">
-					<!-- form -->
-					<form
-						name="contactForm"
-						id="contactForm"
-						method="POST"
-						onsubmit="mailSender(); reset(); return false;"
-					>
-						<fieldset>
-							<div class="form-field">
-								<input
-									name="contactName"
-									type="text"
-									id="contactName"
-									placeholder="Name"
-									value=""
-									minlength="2"
-									required=""
-								/>
-							</div>
-							<div class="form-field">
-								<input
-									name="contactEmail"
-									type="email"
-									id="contactEmail"
-									placeholder="Email"
-									value=""
-									required=""
-								/>
-							</div>
-							<div class="form-field">
-								<input
-									name="contactSubject"
-									type="text"
-									id="contactSubject"
-									placeholder="Subject"
-									value=""
-								/>
-							</div>
-							<div class="form-field">
-								<textarea
-									name="contactMessage"
-									id="contactMessage"
-									placeholder="message"
-									rows="10"
-									cols="50"
-									required=""
-								></textarea>
-							</div>
-							<div class="form-field">
-								<button class="submitform">Submit</button>
-								<div id="submit-loader">
-									<div class="text-loader">Sending...</div>
-									<div class="s-loader">
-										<div class="bounce1"></div>
-										<div class="bounce2"></div>
-										<div class="bounce3"></div>
-									</div>
-								</div>
-							</div>
-						</fieldset>
-					</form>
-					<!-- Form End -->
-
-					<!-- contact-warning -->
-					<div id="message-warning"></div>
-					<!-- contact-success -->
-					<div id="message-success">
-						<i class="fa fa-check"></i>Your message was sent, thank
-						you!<br />
-					</div>
-				</div>
-				<!-- /col-twelve -->
-			</div>
+			<!-- ///////////////// FORM HERE ////////////////// -->
 			<!-- /contact-form -->
 			<div class="row contact-info">
 				<div class="col-four tab-full">
@@ -1236,7 +1242,7 @@
 		<script src="js/jquery-2.1.3.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/main.js"></script>
-		<script src="https://smtpjs.com/v3/smtp.js"></script>
-		<script src="js/mail.js"></script>
+		<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+		<!-- <script src="js/mail.js"></script> -->
 	</body>
 </html>

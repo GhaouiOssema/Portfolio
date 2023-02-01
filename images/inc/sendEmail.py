@@ -16,7 +16,7 @@ msg['To'] = you
 
 # Create the body of the message (a plain-text and an HTML version).
 text = "Hi!\nHow are you?\nHere is the link you wanted:\nhttp://www.python.org"
-html = open('./sample_html_email.html').read()
+html = open('template.html').read()
 
 # Record the MIME types of both parts - text/plain and text/html.
 part1 = MIMEText(text, 'plain')
